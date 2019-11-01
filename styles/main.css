@@ -1,0 +1,357 @@
+* {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.col-sm-6{
+    padding: 0;
+}
+                                                                
+body {
+/*    //niepotrzebne chyba//*/
+    margin: 0;
+    padding: 0;
+}
+
+a {   
+    color: black;
+}
+
+a h1 {   
+    color: white;
+}
+a:hover{
+    color: black;
+}
+a:hover, a h1:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar {
+    position:absolute;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:50px;
+}
+
+                                                            /* FULLSCROLL*/
+
+
+/*#fullpage {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#fullpage section{
+    height: 100vh;
+}
+
+#fullpage section:nth-child(1){
+    
+}
+
+#fullpage section:nth-child(2){
+  
+}
+
+.fullscr_row {   
+    height: 100vh;
+}
+
+.row {
+    margin:0;
+}*/
+
+
+                                                            /*SECTION 1*/
+
+.big-wstep {
+    position: relative;
+}
+.wstep-opis {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;    
+    color:white;
+    width:55.5vw;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+
+
+                                                            /*SECTION 2 DOM*/
+
+                                                            
+/*                                     LEWA STRONA                       */
+.sm-image {
+    width:400px;
+    height:400px;
+}
+
+.responsive-container {
+  margin: 1em auto;
+  min-width: 200px;       /* cap container min width */
+  max-width: 500px;       /* cap container max width */
+  position: relative;     
+  overflow: hidden;       /* crop if image is larger than container */
+/*  background-color: #ccc; */
+}
+.responsive-container:before {
+  content: "";            /* using pseudo element for 1:1 ratio */
+  display: block;
+  padding-top: 100%;
+}
+.responsive-container img {
+  position: absolute;
+  top: -999px;            /* use sufficiently large number */
+  bottom: -999px;
+  left: -999px;
+  right: -999px;
+  margin: auto;           /* center horizontally and vertically */
+}
+
+
+
+/*                                     PRAWA STRONA*/
+
+
+.dom {
+    font-size: 3.5em !important;
+    background: #700325;
+    padding-bottom: 10px;
+}
+
+.domek {
+    background: white;
+}
+
+.center-div
+{
+    
+/*    background-color: #ccc;*/
+     margin: 0 auto;
+     height: 100vh;
+     width: 100vw; 
+}
+
+.center-div .maly-opis
+{
+    text-align: justify;
+  
+     position: relative;
+     top: 50%;
+     transform: perspective(1px) translateY(-50%);
+     width:500px;
+     
+     
+}
+
+maly-opis-lewy
+
+
+
+
+                                                                /*SECTION 3 SDS*/
+
+
+
+
+
+
+.big-sds {
+    position: relative;
+}
+
+
+.big-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-block {    
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  background-color: rgba(112,3,37,0.7);
+  color: white;
+  padding:20px;
+}
+
+.duzy-opis {
+    width: 400px;
+}
+
+
+                                                                /*SECTION 4 SENIOR+*/
+
+                                                                /*SECTION 5 WTZ*/
+                                                                
+                                                                /*SECTION 6 DLACZEGO*/
+                     
+                                                                
+.icon-left, .icon-right {
+    height:31px;
+    width:31px;    
+}
+
+.icon-left {
+    margin-left:50px;
+}
+
+.icon-right {
+    margin-right:50px;
+}
+
+.tytul-section6 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.center-div .maly-opis-lewy
+{
+    text-align: justify;  
+     position: relative;
+     top: 40%;
+     transform: perspective(1px) translateY(-50%);
+     width:50vw;
+     padding-right: 100px;
+     
+}
+
+
+.center-div .maly-opis-prawy
+{
+    text-align: justify;  
+     position: relative;
+     top: 40%;
+     transform: perspective(1px) translateY(-50%);
+     width:50vw;
+     padding-left: 100px;     
+}                                                               
+                                                                /*SECTION 7 O NAS*/
+                                                                
+      
+.title {
+    margin-top: 7%;
+}
+
+.line {
+    height:2px;
+    width:400px;
+    margin: auto;
+    background-color:#700325;
+}
+
+.o_nas {
+    text-align: justify;
+    margin: auto;
+    width: 700px;
+    background-color: white;
+    margin-top:5%;
+}
+
+.margin-a {
+    margin: auto;
+}
+
+.column_1 {
+  height: 100vh;
+  
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex-grow: 1;
+  padding: 20px 10px
+}
+
+.footer {
+  background-color: #333333;
+  padding: 10px;
+  color: white
+}
+
+.arrow-up {
+    z-index: 100;
+    position: absolute;
+    top:70vh;
+    left:85vw;
+}
+
+.up_btn {
+    font-size:20px;
+     background-color: #700325;
+     padding:14px; 
+     padding-left:30px;
+     padding-right:30px;
+     border-radius:5px;
+     color: white;
+     text-decoration: none;
+     float: right;
+     margin-bottom: 30px;
+}
+
+.foot-links a{
+    color:white !important;
+}
+
+
+/*NAVIGATION*/
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: yellow;
+   
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: white;
+   
+}
+      
+body.fp-viewing-Dom #fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background: rgb(64, 64, 64);   
+}
+body.fp-viewing-Dom #fp-nav
+.fp-tooltip{    
+    color:rgb(64, 64, 64) !important;
+}
+
+body.fp-viewing-Senior #fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background: rgb(64, 64, 64);
+}
+body.fp-viewing-Senior #fp-nav
+.fp-tooltip{    
+    color:rgb(64, 64, 64) !important;
+}
+
+body.fp-viewing-Dlaczego #fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background: rgb(64, 64, 64);
+}
+body.fp-viewing-Dlaczego #fp-nav
+.fp-tooltip{    
+    color:rgb(64, 64, 64) !important;
+}
+
+body.fp-viewing-My #fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background: rgb(64, 64, 64);
+}
+body.fp-viewing-My #fp-nav
+.fp-tooltip{    
+    color:rgb(64, 64, 64) !important;
+}
+
